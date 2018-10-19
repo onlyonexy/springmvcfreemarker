@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="${ctx}/js/jquery.min.js"></script>
+<style>
+#table{
+            border-collapse: collapse;
+            margin: 0 auto;
+            text-align: center;
+            border: 1
+
+}
+ #table td
+        {
+            border: 1px solid #cad9ea;
+            color: #666;
+            height: 30px;
+            }
+</style>
+
+</head>
+<body>
+<form action="${ctx}/springUpload.html" method="post" enctype="multipart/form-data">
+<table id ="table">
+
+<tr>
+ <td>过滤器：</td>
+ <td>${(ctx)!''}</td>
+</tr>
+<tr>
+ <td>request：</td>
+ <td>${(xy)!''}</td>
+</tr>
+<tr>
+ <td>文件：</td>
+ <td><input name="dir" type="file" accept="*"/></td>
+</tr>
+<tr>
+ <td>文件：</td>
+ <td><input name="name" type="text" /></td>
+</tr>
+<tr>
+ <td></td>
+ <td><input value="提交" type="submit" /></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
