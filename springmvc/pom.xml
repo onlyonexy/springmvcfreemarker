@@ -12,7 +12,7 @@
         <freemarker.version>2.3.16</freemarker.version>
         <commons.beanutils.version>1.8.3</commons.beanutils.version>
         <jetty.version>6.1.23</jetty.version>
-        <fastjson.version>1.2.8</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <poi.version>3.16</poi.version>
         <hutool.version>4.1.16</hutool.version>
         <final.name>springmvc</final.name>
