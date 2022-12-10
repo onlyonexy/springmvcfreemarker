@@ -7,7 +7,7 @@
   <name>Onlyone Maven Webapp</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.1.6.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <mysql.connector.version>5.1.30</mysql.connector.version>
         <freemarker.version>2.3.16</freemarker.version>
         <commons.beanutils.version>1.8.3</commons.beanutils.version>
